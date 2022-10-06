@@ -1,0 +1,69 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #525252;
+}
+
+header {
+    background-image: url("../images/zf8G09.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: auto;
+    display: flex;
+    align-items: center;
+   
+}
+
+header h1 {
+    font-size: 100px;
+    color: #CDC9C3;
+    justify-content: flex-end;
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.disc .disc-image {
+    display: flex;
+    justify-content: center;
+}
+
+.disc .disc-image img {
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    background-color: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+a { 
+    color: #CA3E47;
+}
+
+.disc-text {
+    color: blanchedalmond;
+   
+
+}
